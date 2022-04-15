@@ -4,9 +4,36 @@
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geometricas</title>
-    <script src="/JS/figuras_geometricas.js"></script>
+    <script src="/JS/funciones_figuras_geometricas.js"></script>
 </head>
 <body>
-    <h1>Figuras Geometricas</h1>
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>primer taller de html y javascrip</p>
+    </header>
+    <main>
+        <section>
+            <h2>Calcula el Area y Perimetro de un cuadrado</h2>
+            <form action="">
+                <label for="inputcuadrado">
+                    <span>¿Cuanto mide cada lado de tu cuadrado?</span><br>
+                    <input type="number" name="" id="inputcuadrado" />
+                </label><br><br>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular Perimetro
+                </button>
+                <span id="rPerimetro"></span><br>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    calcular Area
+                </button>
+                <span id="rArea"></span>
+
+            </form>           
+        </section>
+    </main>
+    <footer>
+        <h6>derechos reservado de NEGISARO</h6>
+    </footer>
+    
 </body>
 </html>
