@@ -25,10 +25,18 @@
                     <span>¿Cuanto es el porcentaje de descuento?</span><br>
                     <input type="number" name="" id="descuento"/>
                 </label><br><br>
+                <label for="cupoDescuento">
+                    <span>¿ingresa el cupon de descuento?</span><br>
+                    <input type="text" name="" id="cupoDescuento"/>
+                </label><br><br>
                 <button type="button" onclick="precioConDescuento()">
                     Calcular Precio Total
                 </button>
-                <span id="rPrecio"></span>
+                <small id="rPrecio"></small><br>
+                <button type="button" onclick="porcentajePrecioDescuentoCupon()">
+                    Calcular Precio Total con cupon descuento
+                </button>
+                <small id="rPrecioCupon"></small>
             </form>       
         </section>
     </main>
